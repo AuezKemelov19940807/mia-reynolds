@@ -1,0 +1,43 @@
+{
+  "name": "mia-reynolds",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "api": "json-server --watch  ./_data/db.json --port 4000",
+    "server": "npm run api &; npm run dev"
+  },
+  "dependencies": {
+    "framer-motion": "^10.16.4",
+    "json-server": "^0.17.4",
+    "next": "13.5.4",
+    "react": "^18",
+    "react-audio-play": "^0.0.17",
+    "react-audio-player": "^0.17.0",
+    "react-dom": "^18",
+    "react-icons": "^4.11.0",
+    "react-parallax-mouse": "^2.0.1",
+    "react-responsive": "^9.0.2",
+    "react-scroll": "^1.9.0",
+    "react-type-animation": "^3.2.0",
+    "sharp": "^0.32.6",
+    "swiper": "^10.3.1",
+    "swr": "^2.2.4",
+    "tailwind-scrollbar": "^3.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-scroll": "^1.8.9",
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.4",
+    "postcss": "^8",
+    "tailwindcss": "^3",
+    "typescript": "^5"
+  }
+}
